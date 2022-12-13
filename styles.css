@@ -79,6 +79,8 @@ h3 {
 
     justify-content: center;
     align-items: center;
+    transition: transform 0.5s;
+    transition: opacity 0.5s;
 }
 
 .general-button2 {
@@ -96,17 +98,25 @@ h3 {
     justify-content: center;
     align-items: center;
     transition: opacity 0.5s;
+    transition: transform 0.5s;
 }
 
 .general-button2:hover {
-    opacity: 0.4;
+    opacity: 0.8;
     transition: opacity 0.5s;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transition: transform 0.5s;
 }
 
-
 .general-button:hover {
-    opacity: 0.4;
-    transition: opacity 0.5s;
+    opacity: 0.8;
+    transition: opacity 1s;
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
 }
 
 .aboutme__page {
